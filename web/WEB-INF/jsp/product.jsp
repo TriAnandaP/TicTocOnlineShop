@@ -35,10 +35,75 @@
     </head>
     <body>
 
-        <div class="jumbotron">
-            <div class="container text-center">
-                <h1>Welcome to the TicToc Shop</h1>      
-                <p>The biggest E-Commerce of Indonesia</p>
+
+
+        <div class="container">
+            <!--<div style="height: 170px" class="jumbotron">
+                <div class="container text-center">
+                    <h1 style="margin-top: 1px">Welcome to the TicToc Shop</h1>      
+                    <p>The biggest E-Commerce of Indonesia</p>
+                </div>
+            </div> -->
+
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="container text-center" style="margin-top: 20px;">
+                        <h1 style="margin-top: 1px">Welcome to the TicToc Shop</h1>      
+                        <p>The Biggest E-Commerce of Indonesia</p>
+                    </div>
+                    <div class="item active">
+                        <img src="http://purplelynx.com/wp-content/uploads/2015/09/shop.png" alt="Los Angeles" style="width:50%; height: 300px; margin-left: 300px">
+                        <div class="carousel-caption">
+                            <!-- <h3>Los Angeles</h3>
+                             <p>LA is always so much fun!</p> -->
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="http://www.katowork.com/wp-content/uploads/2015/10/Shopping_girls3.png" alt="Chicago" style="width:40%; height: 300px; margin-left: 100px;">
+                        <div class="carousel-caption">
+                            <!-- <h3>Chicago</h3>
+                            <p>Thank you, Chicago!</p> -->
+                        </div>
+                    </div>
+
+                    <div class="item">
+                        <img src="http://images.samsung.com/is/image/samsung/p5/id/smartphones/phones-for-every-need-001-pcv.png?$ORIGIN_PNG$" alt="New York" style="width:40%; height: 300px; margin-left: 200px;">
+                        <div class="carousel-caption">
+                            <!--<h3>New York</h3>
+                            <p>We love the Big Apple!</p> -->
+                        </div>
+                    </div>
+                    
+                    <div class="item">
+                        <img src="https://i.pinimg.com/originals/74/67/86/74678629af7b85f671e05f38bd0ff1b3.png" alt="New York" style="width:40%; height: 300px; margin-left: 200px;">
+                        <div class="carousel-caption">
+                            <!--<h3>New York</h3>
+                            <p>We love the Big Apple!</p> -->
+                        </div>
+
+                    </div
+                </div>
+
+                <!-- Left and right controls -->
+                <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only">Next</span>
+                </a>
             </div>
         </div>
 
@@ -81,7 +146,11 @@
         </div><br><br>
 
         <footer class="container-fluid text-center">
-            <p>TicToc Shop Copyright</p>  
+            <p>TicToc Shop Copyright</p> 
+            <form class="form-inline">Get deals:
+                <input type="email" class="form-control" size="50" placeholder="Email Address">
+                <button type="button" class="btn btn-danger">Sign Up</button>
+            </form>
         </footer>
     </body>
 </html>
